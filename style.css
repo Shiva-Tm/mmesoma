@@ -1,0 +1,594 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.links1 {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.links1 a {
+    color: black;
+}
+
+.links1 a {
+    position: relative;
+}
+
+.links1 a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(236, 91, 83);
+    transition: .5s;
+    bottom: 0px;
+    left: 0px;
+}
+
+.links1 a:hover {
+    color: rgb(236, 91, 83);
+}
+
+.links1 a:hover::after {
+    width: 100%;
+}
+
+.hire-me {
+    color: white;
+    background-color:rgb(236, 91, 83);
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.hire-me:hover {
+    background-color: rgb(199, 50, 42);
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.logos i {
+    text-decoration: none;
+    color: rgb(0, 45, 91);
+    font-size: 1.5rem;
+    transition: .5s;
+    margin: 5px 5px;
+}
+
+.logos i:hover{
+    color: rgb(236, 91, 83);
+}
+
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sam {
+    width: 500px;
+    height: 700px;
+}
+
+.head1 {
+    font-size: 4rem;
+    font-family: serif;
+    color: rgb(0, 45, 91);
+}
+
+.t {
+    color: rgba(53, 55, 58);
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.learn-more {
+    background-color: rgb(236, 91, 83);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.learn-more:hover {
+    background-color: rgb(199, 50, 42);
+}
+
+
+.about {
+    font-family: serif;
+    color: rgb(0, 45, 91);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.a {
+    color: rgba(53, 55, 58);
+    text-align: center;
+}
+
+.line {
+    text-align: center;
+    height: 3px;
+    width: 100px;
+    background-color: rgb(236, 91, 83);
+    border-radius: 3px;
+    margin: 0px auto;
+}
+
+.b {
+    font-family: serif;
+    color: rgb(0, 45, 91);
+    font-size: 2rem;
+}
+
+.line2 {
+    height: 3px;
+    width: 100px;
+    background-color: rgb(236, 91, 83);
+    border-radius: 3px;
+    
+}
+
+.c {
+    color: rgba(53, 55, 58);
+    width: 350px;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.contact-me {
+    background-color: rgb(236, 91, 83);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.contact-me:hover {
+    background-color: rgb(199, 50, 42);
+}
+
+.ab-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap :20px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.d {
+    color:rgba(53, 55, 58);
+    width: 350px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.laptop {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 40px 0px 0px 12px rgb(236, 91, 83);
+}
+
+.service {
+    background-color: rgba(255, 176, 190, 0.276);
+    margin: 0px 0px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.service-prov {
+    font-family: serif;
+    color: rgb(0, 45, 91);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.e {
+    color: rgba(53, 55, 58);
+    text-align: center;
+}
+
+.line4 {
+    text-align: center;
+    height: 3px;
+    width: 100px;
+    background-color: rgb(236, 91, 83);
+    border-radius: 3px;
+    margin: 0px auto;
+}
+
+.fa-arrow-right {
+    transition: 1s;
+}
+
+.fa-arrow-right:hover {
+    background-color: rgba(128, 128, 128, 0.225);
+    color: rgb(236, 91, 83);
+    border-radius: 50%;
+   
+}
+
+
+.sev {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pic {
+    width: 50px;
+    height: 50px;
+}
+
+.sev1 {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.sev1 a {
+    text-decoration: none;
+    color: rgba(0, 46, 91, 0.366);
+    font-size: 1.5rem;
+}
+
+.sev-head {
+    font-family: serif;
+    color: rgb(0, 45, 91);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.sev-tx {
+    color:rgba(53, 55, 58);
+    width: 350px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.workexp {
+    background-color: rgba(255, 176, 190, 0.276);
+    margin: 0px 0px;
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+
+.workexp-head {
+    font-family: serif;
+    color: rgb(0, 45, 91);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.f {
+    color: rgba(53, 55, 58);
+    text-align: center;
+}
+
+.line5 {
+    text-align: center;
+    height: 3px;
+    width: 100px;
+    background-color: rgb(236, 91, 83);
+    border-radius: 3px;
+    margin: 0px auto;
+}
+
+.exp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.exp-div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.time {
+    color: rgb(236, 91, 83);
+}
+
+.exp-p {
+    color: rgba(53, 55, 58);
+}
+
+.exp-amt {
+    text-align: center;
+    color: white;
+    -webkit-text-fill-color: fill;
+    background-image: linear-gradient(to right, pink, grey);
+    padding: 0px 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.portfolio-head {
+    font-family: serif;
+    color: rgb(0, 45, 91);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.g {
+    color: rgba(53, 55, 58);
+    text-align: center;
+}
+
+.line6 {
+    text-align: center;
+    height: 3px;
+    width: 100px;
+    background-color: rgb(236, 91, 83);
+    border-radius: 3px;
+    margin: 0px auto;
+}
+
+.port-pic{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.port {
+    
+    transform: perspective(200px) rotateY(-20deg);
+    width: 350px;
+    height: 250px;
+    transition: 1.5s;
+    margin-top: 50px;
+}
+
+.port:hover {
+    transform: perspective(200px) rotateY(0deg);
+}
+
+.whatclientsays{
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: rgba(255, 176, 190, 0.276);
+}
+
+.client-head {
+    font-family: serif;
+    color: rgb(0, 45, 91);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.h {
+    color: rgba(53, 55, 58);
+    text-align: center;
+}
+
+.line7 {
+    text-align: center;
+    height: 3px;
+    width: 100px;
+    background-color: rgb(236, 91, 83);
+    border-radius: 3px;
+    margin: 0px auto;
+}
+
+.clientbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.fa-quote-left {
+    color: rgb(236, 91, 83);
+    font-size: 1.5rem;
+}
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+.person {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    outline: 2px solid rgb(236, 91, 83);
+    position: relative;
+    left: 135px;
+}
+
+.client-says {
+    color:rgba(53, 55, 58);
+    width: 350px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.client-line {
+    height: 3px;
+    width: 70px;
+    background-color: rgb(236, 91, 83);
+    border-radius: 3px;
+    margin: 0px auto;
+}
+
+.name {
+    color:rgba(53, 55, 58);
+    width: 350px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.stayintouch {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.stayintouch-head {
+    font-family: serif;
+    color: rgb(0, 45, 91);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.i {
+    color: rgba(53, 55, 58);
+    text-align: center;
+}
+
+.line8 {
+    text-align: center;
+    height: 3px;
+    width: 100px;
+    background-color: rgb(236, 91, 83);
+    border-radius: 3px;
+    margin: 0px auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 450px; */
+    width: 400px;
+    text-align: center;
+}
+
+.email {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.304);
+}
+
+.btn {
+    color: white;
+    background-color:rgb(236, 91, 83);
+    padding: 15px 10px;
+    border-radius: 10px;
+    transition: .5s;
+    width: 120px;
+    margin-left: 100px;
+}
+
+.btn:hover {
+    background-color: rgb(199, 50, 42);
+}
+
+.sub-head{
+    margin: 0px 0px;
+    font-family: cursive;
+    padding-top: 310px;
+    width: 1270px;
+    height: 620px;
+    text-align: center;
+    color: palevioletred;
+    background-image: linear-gradient(to right, grey, pink , palevioletred);
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(0, 45, 91);
+    text-align: center;
+    /* margin: 0 0; */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ex-email {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.ft-logo i {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: .5s;
+}
+
+.ft-logo i:hover{
+    color: rgb(236, 91, 83);
+}
+
+.cr {
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width:700px) {
+    .head1 {
+        font-size: 2rem;
+        font-family: serif;
+        color: rgb(0, 45, 91);
+    }
+    .logos {
+        flex-direction: row;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .about {
+        font-family: serif;
+        color: rgb(0, 45, 91);
+        text-align: center;
+        font-size: 2rem;
+    }
+
+  
+}
